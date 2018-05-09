@@ -192,6 +192,10 @@
     <Compile Include="Migrations\201805090100243_builddb.Designer.cs">
       <DependentUpon>201805090100243_builddb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805090117121_addCustomerInitialInteractionDate.cs" />
+    <Compile Include="Migrations\201805090117121_addCustomerInitialInteractionDate.Designer.cs">
+      <DependentUpon>201805090117121_addCustomerInitialInteractionDate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppDbContext.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -269,6 +273,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805090100243_builddb.resx">
       <DependentUpon>201805090100243_builddb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805090117121_addCustomerInitialInteractionDate.resx">
+      <DependentUpon>201805090117121_addCustomerInitialInteractionDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
